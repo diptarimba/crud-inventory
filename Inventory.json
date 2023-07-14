@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 4,
-	"__export_date": "2023-07-14T10:52:07.566Z",
+	"__export_date": "2023-07-14T10:58:22.141Z",
 	"__export_source": "insomnia.desktop.app:v2023.4.0",
 	"resources": [{
 		"_id": "req_38465a405e214ad8b94c51796dc88780",
@@ -602,7 +602,7 @@
 	}, {
 		"_id": "req_17a78828f3ee4116ab61df082a1b73b5",
 		"parentId": "fld_6a1c5421c42c43e1948a2f3cfcdb2b30",
-		"modified": 1689331750349,
+		"modified": 1689332257364,
 		"created": 1689331569984,
 		"url": "http://localhost:8000/api/transactions",
 		"name": "Create Out",
@@ -610,7 +610,7 @@
 		"method": "POST",
 		"body": {
 			"mimeType": "application/json",
-			"text": "{\n\t\"customer_id\": 2,\n\t\"product_id\": 2,\n\t\"quantity\": 5\n}"
+			"text": "{\n\t\"customer_id\": 11,\n\t\"product_id\": 1,\n\t\"quantity\": 5\n}"
 		},
 		"parameters": [],
 		"headers": [{
@@ -630,7 +630,7 @@
 	}, {
 		"_id": "req_334e813363f34dd9b3e630bdf385eeb8",
 		"parentId": "fld_6a1c5421c42c43e1948a2f3cfcdb2b30",
-		"modified": 1689331704533,
+		"modified": 1689332221453,
 		"created": 1689331668598,
 		"url": "http://localhost:8000/api/transactions",
 		"name": "Create In",
@@ -638,7 +638,7 @@
 		"method": "POST",
 		"body": {
 			"mimeType": "application/json",
-			"text": "{\n\t\"supplier_id\": 1,\n\t\"product_id\": 1,\n\t\"quantity\": 5\n}"
+			"text": "{\n\t\"supplier_id\": 1,\n\t\"product_id\": 1,\n\t\"quantity\": 10\n}"
 		},
 		"parameters": [],
 		"headers": [{
