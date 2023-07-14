@@ -36,9 +36,7 @@ class TransactionController extends Controller
         $productId = $request->input('product_id');
         $quantity = $request->input('quantity');
 
-        $transactionData = $request->only(['customer_id', 'supplier_id']);
-
-        $transaction = Transaction::create($transactionData + ['quantity' => $quantity]);
+        $transaction = Transaction::create($request->all());
 
         if ($transaction->customer_id) {
             $this->decreaseProductQuantity($productId, $quantity);
